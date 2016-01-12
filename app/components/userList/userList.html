@@ -1,0 +1,12 @@
+<div class="user-list">
+	<h2>Amazing People</h2>
+
+	<ul>
+		<li *ngIf="names" *ngFor="#name of names">{{name}}</li>
+	</ul>
+
+	<form class="complete-form" (submit)="addName()">
+		<input [(ngModel)]="newName">
+		<button type="submit"></button>
+	</form>
+</div>

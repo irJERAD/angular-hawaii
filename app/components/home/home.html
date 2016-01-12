@@ -1,0 +1,30 @@
+<h1 class="home-title">Angular 2</h1>
+
+<div class="home-note">
+	<table>
+		<thead>
+		<th>Javascript Feature</th>
+		<th>ES 5 Result</th>
+		<th>ES 6 Result</th>
+		</thead>
+		<tr>
+			<td>Destructuring Operator</td>
+			<td>{{es5Destructuring}}</td>
+			<td class="destructuring">{{es6Destructuring}}</td>
+		</tr>
+		<tr>
+			<td>Spread Operator</td>
+			<td>{{es5Spread}}</td>
+			<td class="spread">{{es6Spread}}</td>
+		</tr>
+		<tr>
+			<td>Default Parameters</td>
+			<td>{{es5Default}}</td>
+			<td class="default">{{es6Default}}</td>
+		</tr>
+	</table>
+
+	<!-- Task #4: The component in home.ts is publishing two arrays, es5Values and es6Values. -->
+	<!-- Pass those two values by name as inputs to the smile directive. -->
+	<smile [es5Values]="changeMe" [es6Values]="changeMe"></smile>
+</div>

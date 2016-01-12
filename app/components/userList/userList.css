@@ -1,0 +1,14 @@
+.user-list {
+	margin-left: 50px;
+}
+
+.user-list li {
+	list-style-type: decimal;
+}
+
+.complete-form input, .complete-form button {
+	height: 1px;
+	width: 1px;
+	padding: 0;
+	border: none;
+}

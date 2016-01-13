@@ -1,8 +1,10 @@
 Clone the repo
 Run ‘npm install’ to install all the dependencies.
 Note: If you have issues installing, update your Node to version 4+
-We have a few CORS issues which you can temporarily fix in one of two ways
-	1. Run 'open -a Google\ Chrome --args --disable-web-security -–allow-file-access-from-files'
+We have a few CORS issues which you can temporarily fix in one of two ways. If you are heavily opposed to any of the following
+solutions you don't have to do it. You just wont be able to see all the people that have completed the project or be able to add
+your name to the list. Which means you'll skip the last step "npm run complete ..." or else it'll just fail.
+	1. Quit Chrome and run 'open -a Google\ Chrome --args --disable-web-security -–allow-file-access-from-files'
 		This will open Chrome without web security (Don't use this for normal use)
 	2. You can also install a Chrome Extension - Allow-Control-Allow-Origin: *
 	https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en
@@ -20,6 +22,7 @@ There are 6 tasks for you to complete within the project.
 * Task 4 is to pass values from one Component into a sub-Component app/components/home/home.html
 * Task 5 is to fix a databinding bug app/components/home/smile.html
 * Task 6 is to fix 2 failing unit tests. run npm test to find the failures.
+  The tests files are in app/components/**/* and end with _spec.ts
 
 
 When all tasks are completed, run 'npm run complete -- --params.fullname="FULLNAME"',

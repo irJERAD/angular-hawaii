@@ -6,6 +6,7 @@ solutions you don't have to do it. You just wont be able to see all the people t
 your name to the list. Which means you'll skip the last step "npm run complete ..." or else it'll just fail.
 	1. Quit Chrome and run 'open -a Google\ Chrome --args --disable-web-security -–allow-file-access-from-files'
 		This will open Chrome without web security (Don't use this for normal use)
+		
 	2. You can also install a Chrome Extension - Allow-Control-Allow-Origin: *
 	https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en
 		This one will modify every response to allow request from any domain  (Don't use this for normal use)
